@@ -1,0 +1,286 @@
+/*GENERAL EFFECTS*/
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:white;    
+}
+
+/*NAV BAR EFFETS*/
+
+.nav-flex-container{
+    display:flex;
+    flex-direction:space-between;
+    padding:5px;
+    position:relative;
+    width:100%;
+    left:0px;
+    top:0px;
+}
+
+.nav-flex-container a{
+    color:inherit;
+    text-decoration:none;
+}
+
+.nav-flex-child-1{
+    flex-grow:1;
+    display:flex;
+    align-items:center;
+}
+
+.nav-flex-child-2{
+    flex-grow:1;
+    padding-right:15px;
+    text-align:end;
+}
+
+.nav-bar-left{
+    list-style-type:none;
+    margin:auto;
+    padding:0;
+    text-align:left;
+}
+
+
+.nav-bar-right{
+    list-style-type:none;
+    margin:auto;
+    padding:0;
+    text-align:right;
+}
+
+.nav-flex-container li{
+    display:inline-block;
+    padding:5px;
+    margin:0 5px;
+    color:#222222;
+    font-size:14px;
+}
+
+nav-flex-container li:hover{
+    text-decoration:underline;
+}
+
+
+/*GRID BOX CONTAINER*/
+
+.grid-box-container{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-auto-rows:2fr 1fr 1fr 1fr;
+    gap: 5px;
+
+    margin:auto;
+    margin-top:0px;
+    width:700px;
+
+    padding:15px;
+}
+
+.grid-first-row{
+grid-column:1/5;
+grid-row:1;
+margin-left:auto;
+margin-right:auto;
+}
+
+.grid-second-row-search-icon{
+grid-column:1/5;
+grid-row:2;
+
+z-index:2;
+}
+
+.grid-second-row{
+    grid-column:1/5;
+    grid-row:2;
+}
+
+.grid-third-row-firstbutton{
+    grid-column:1/3;
+    grid-row:3;
+}
+
+.grid-third-row-secondbutton{
+    grid-column:3/5;
+    grid-row:3;
+}
+
+.grid-fourth-row{
+    grid-column:1/5;
+    grid-row:4;
+}
+
+
+
+/*first row containt*/
+
+
+.google--logo{
+    width:auto;
+    display:block;
+}
+
+/* SECOND ROW CONTAINT*/
+
+.search-icon{
+    display:block;
+    margin-left:20px;
+    margin-top:15px;
+    z-index:2;
+}
+
+.search-bar{
+    width:80%;
+    height:2.5rem;
+    padding:0.25rem 4rem;
+
+    border-radius:2rem;
+
+    display:block;
+}
+
+.search-bar:hover{
+    border:4px solid darkgrey;
+}
+
+/* THIRD ROW COLUMN*/
+.first-button{
+    width:250px;
+    height:40px;
+    background:#eef3fa;
+    border-radius:2px;
+    border-style:none;
+    cursor:pointer;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:20px;
+}
+
+.first-button:hover{
+    border:2px solid rgb(85, 80, 80);
+}
+.first-button:visited{
+    border:2px solid #4285fa;
+}
+
+.second-button{
+    width:250px;
+    height:40px;
+    background:#eef3fa;
+    border-radius:2px;
+    border-style:none;
+    cursor:pointer;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:20px;
+}
+
+.second-button:hover{
+    border:2px solid darkgrey;
+}
+.second-button:visited{
+    border:2px solid #4285fa;
+}
+
+/*FOURTH ROW CONTAINT*/
+
+.grid-fourth-row{
+    text-align:center;
+}
+.grid-fourth-row a{
+    text-decoration:none;
+}
+.grid-fourth-row a:hover{
+    text-decoration:underline;
+}
+
+/*BOTTOM TRAY */
+
+.tray-flex-container{
+    display:flex;
+    flex-direction:space-between;
+    padding:5px;
+    position:relative;
+    width:100%;
+    left:0px;
+    top:0px;
+    background-color:#ffffff;
+}
+
+.tray-flex-container a{
+    color:inherit;
+    text-decoration:none;
+}
+
+.tray-flex-child-1{
+    flex-grow:1;
+    display:flex;
+    align-items:center;
+}
+
+.tray-flex-child-2{
+    flex-grow:1;
+    padding-right:15px;
+    text-align:end;
+}
+
+.tray-bar-left{
+    list-style-type:none;
+    margin:auto;
+    padding:0;
+    text-align:left;
+}
+
+
+.tray-bar-right{
+    list-style-type:none;
+    margin:auto;
+    padding:0;
+    text-align:right;
+}
+
+.tray-flex-container li{
+    display:inline-block;
+    padding:5px 10px;
+    margin:0 5px;
+    color:#222222;
+    font-size:14px;
+}
+
+.tray-flex-container li:hover{
+    text-decoration:underline;
+}
+
+/*COUNTRYY COINTAINY*/
+
+.country-flex-container{
+    display:flex;
+    flex-direction:flex-start;
+
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:20px;
+    position:relative;
+    width:100%;
+    left:0;
+    bottom:90px;
+    background-color:#ffffff;
+    color:#717171;
+
+}
+
+.square-icon{
+    vertical-align:middle;
+}
+
+.profile-icon{
+    vertical-align:middle;
+}
+
+.setting-icon{
+    vertical-align:middle;
+}
+
